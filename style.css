@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header-logo {
+  width: 100%;
+  padding: 1px 5px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: whitesmoke;
+}
+.header-logo img {
+  margin-top: 10px;
+  height: 18px;
+  width: auto;
+}
+.search-bar {
+  height: 40px;
+  width: 40%;
+  border-radius: 4px;
+}
+.konga-logo {
+  margin-top: 20px;
+  height: 30px;
+}
+.nav-bar2 {
+  width: 100%;
+  background-color: #ed017f;
+  color: white;
+  padding: 2px 0;
+  font-size: smaller;
+}
+
+.nav-bar2 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar3 {
+  width: 100%;
+  background-color: #90044f;
+  padding: 10px 0;
+  font-size: smaller;
+  color: white;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.nav-bar3 .container {
+  display: flex;
+  gap: 80px;
+}
+
+.nav-bar3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar3 span:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.nav-bar2 span:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.konga-lg {
+  height: auto;
+  width: 100%;
+}

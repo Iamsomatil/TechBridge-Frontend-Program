@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-box">
+        <h1>Create a new account</h1>
+        <p>It's quick and easy.</p>
+
+        <input type="text" placeholder="First name" required />
+
+        <label>Date of Birth</label>
+        <div class="dob">
+          <select required>
+            <option value="17">17</option>
+          </select>
+          <select required>
+            <option value="Oct">Oct</option>
+          </select>
+          <select required>
+            <option value="2024">2024</option>
+          </select>
+        </div>
+
+        <label>Gender</label>
+        <div class="gender">
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            required
+          />
+          <label for="female">Female</label>
+          <input type="radio" id="male" name="gender" value="male" required />
+          <label for="male">Male</label>
+          <input
+            type="radio"
+            id="custom"
+            name="gender"
+            value="custom"
+            required
+          />
+          <label for="custom">Custom</label>
+        </div>
+
+        <input
+          type="email"
+          placeholder="Mobile number or email address"
+          required
+        />
+        <input type="password" placeholder="Password" required />
+
+        <p class="info-text">
+          People who use our service may have uploaded your contact information
+          to Facebook. <a href="#">Learn more.</a>
+        </p>
+        <p class="terms-text">
+          By clicking Sign Up, you agree to our <a href="#">Terms</a>,
+          <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You
+          may receive SMS notifications from us and can opt out at any time.
+        </p>
+
+        <button type="submit" class="signup-btn">Sign Up</button>
+        <p class="login-link">
+          Already have an account? <a href="#">Log In</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
